@@ -1,4 +1,6 @@
-.section-title {
+.lead__title {
+    display: flex;
+    max-width: 720px;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
