@@ -1,0 +1,10 @@
+.places__text-large {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0;
+    grid-column: 2 / -1;
+    grid-row: 5 / 6;
+}

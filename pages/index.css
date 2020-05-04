@@ -5,3 +5,120 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
+
+@media screen and (min-width: 1280px) {
+    .page {
+        min-width: 1280px;;
+    }
+
+    .header {
+        min-width: 984px;
+    }
+
+    .lead {
+        min-width: 984px;
+    }
+
+    .lead__image {
+        min-width: 984px;
+        min-height: 615px;
+    }
+
+    .intro {
+        margin-left: 148px;
+    }
+
+    .photo-grid {
+        min-width: 1128px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .places {
+        min-width: 984px;
+        margin-bottom: 92px;
+    }
+
+    .places__image {
+        width: 460px;
+        height: 460px;
+    }
+
+    .cover {
+        width: 1184px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+        width: 768px;
+    }
+
+    .header {
+        width: 720px;
+    }
+
+    .lead {
+        width: 768px;
+    }
+
+    .lead__image {
+        width: 768px;
+    }
+
+    .lead__caption {
+        margin-left: 24px;
+    }
+
+    .intro {
+        margin: 88px auto 88px 24px;
+    }
+
+    .intro__title {
+        width: 720px;
+    }
+
+    .intro__text {
+        width: 720px;
+    }
+
+    .photo-grid {
+        max-width: 720px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .places {
+        max-width: 720px;
+    }
+
+    .places__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .places__url {
+        font-size: 12px;
+    }
+
+    .places__image {
+        width: 340px;
+        height: 340px;
+    }
+
+    .places__text-large {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .cover {
+        min-width: 768px;
+    }
+
+    .cover__background {
+        width: 768px;
+    }
+}

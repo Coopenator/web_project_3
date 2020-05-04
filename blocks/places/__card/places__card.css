@@ -1,0 +1,7 @@
+.places__card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(0, auto) 7px minmax(0, auto) 48px minmax(0, auto) 24px minmax(0, auto) 24px minmax(0, auto);
+    grid-column-gap: 32px;
+    margin-bottom: 80px;
+}

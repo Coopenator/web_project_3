@@ -1,0 +1,10 @@
+.places__text-small-one {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 0;
+    grid-column: 2 / -1;
+    grid-row: 7 / 8;
+}

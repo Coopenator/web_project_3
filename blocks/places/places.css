@@ -1,0 +1,12 @@
+@import url(./__card/places__card.css);
+@import url(./__title/places__title.css);
+@import url(./__website/places__website.css);
+@import url(./__url/places__url.css);
+@import url(./__link/places__link.css);
+@import url(./__image/places__image.css);
+@import url(./__text/places__text.css);
+
+.places {
+    width: 928px;
+    margin: 0 auto 96px;
+}
