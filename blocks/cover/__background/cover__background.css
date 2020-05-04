@@ -1,5 +1,5 @@
 .cover__background {
-    min-height: 640px;
+    height: 640px;
     background-image: url(../../../images/cover-route-66.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,4 +27,5 @@
 
 .cover__background:hover::before {
     opacity: 0.8;
+    cursor: pointer;
 }
