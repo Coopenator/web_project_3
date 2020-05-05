@@ -1,7 +1,9 @@
+@import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/logo_usa.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -10,13 +12,7 @@
 @import url(../blocks/footer/footer.css);
 
 @media screen and (min-width: 1280px) {
-    .page {
-        min-width: 1280px;;
-    }
 
-    .header {
-        min-width: 984px;
-    }
 
     .lead {
         min-width: 984px;
@@ -50,16 +46,13 @@
     .cover {
         width: 1184px;
     }
+
+    .cover__background {
+        height: 740px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .page {
-        width: 768px;
-    }
-
-    .header {
-        width: 720px;
-    }
 
     .lead {
         width: 768px;
@@ -124,15 +117,9 @@
 }
 
 @media screen and (min-width: 321px) and (max-width: 767px) {
-    .page {
-        width: 320px;
-    }
 
-    .header {
-        width: 288px;
-    }
 
-    .logo_usa_header {
+    .logo_usa {
         width: 156px;
         height: 36px;
     }
@@ -282,15 +269,12 @@
 }
 
 @media screen and (max-width: 320px) {
-    .page {
-        width: 320px;
-    }
-
+    
     .header {
         width: 288px;
     }
 
-    .logo_usa_header {
+    .logo_usa {
         width: 156px;
         height: 36px;
     }
