@@ -18,4 +18,4 @@ Incorporates BEM methodology for file structure.
 * JavaScript will eventually be utilized as the platform introduces those concepts to the students.
 * *Will be updated as coursework progresses*
 
-[website link]: (https://coopenator.github.io/web_project_3/)
+website link: (https://coopenator.github.io/web_project_3/)
