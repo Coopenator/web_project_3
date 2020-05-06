@@ -1,5 +1,23 @@
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-html { font-family: 'Inter var', sans-serif; }
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url('./Inter-Regular.woff'),
+        url('./Inter-Regular.woff2');
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    src: url('./Inter-Bold.woff'),
+        url('./Inter-Bold.woff2');
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    src: url('./Inter-Black.woff'),
+        url('./Inter-Black.woff2');
 }

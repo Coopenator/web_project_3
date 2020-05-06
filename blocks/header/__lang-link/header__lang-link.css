@@ -10,3 +10,19 @@
     text-decoration: none;
     color: #FFFFFF;
 }
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

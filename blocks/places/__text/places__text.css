@@ -1,3 +1,21 @@
 @import url(./__text-large/places__text-large.css);
-@import url(./__text-small/places__text-small-one.css);
-@import url(./__text-small/places__text-small-two.css);
+@import url(./__text-small/places__text-small-mid.css);
+@import url(./__text-small/places__text-small-bottom.css);
+
+
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+
+    .places__text {
+        width: 288px;
+        margin: 0 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .places__text {
+        width: 288px;
+        margin: 0 16px;
+    }
+}

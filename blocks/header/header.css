@@ -3,7 +3,7 @@
 @import url(./__lang-link/_active/header__lang-link_active.css);
 
 .header {
-    width: 928px;
+    width: 90%;
     min-height: 44px;
     display: flex;
     flex-direction: row;
@@ -15,7 +15,7 @@
 @media screen and (min-width: 1280px) {
     
     .header {
-        min-width: 984px;
+        width: 76%;
     }
 }
 
@@ -28,6 +28,13 @@
 
 @media screen and (min-width: 321px) and (max-width: 767px) {
 
+    .header {
+        width: 288px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
     .header {
         width: 288px;
     }

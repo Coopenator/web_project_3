@@ -2,6 +2,7 @@
     max-width: 183px;
     margin-top: 8px;
     margin-bottom: 0;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
@@ -9,4 +10,11 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 320px) {
+
+    .lead__caption {
+        margin-left: 18px;
+    }
 }
