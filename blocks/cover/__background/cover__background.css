@@ -2,7 +2,7 @@
     height: 740px;
     background-image: url(../../../images/cover-route-66.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto contain;
     background-position: center;
     display: flex;
     justify-content: center;
