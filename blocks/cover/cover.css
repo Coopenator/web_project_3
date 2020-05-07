@@ -3,36 +3,15 @@
 @import url(./__subtitle/cover__subtitle.css);
 
 .cover {
-    width: 1024px;
+    width: 1184px;
     display: flex;
     flex-direction: column;
     margin: auto;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1024px) {
 
     .cover {
-        width: 1184px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-
-    .cover {
-        width: 768px;
-    }
-}
-
-@media screen and (min-width: 321px) and (max-width: 767px) {
-
-    .cover {
-        width: 320px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-
-    .cover {
-        width: 320px;
+        width: 100%;
     }
 }
