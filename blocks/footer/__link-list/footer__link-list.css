@@ -6,15 +6,7 @@
     list-style-type: none;
 }
 
-@media screen and (min-width: 321px) and (max-width: 767px) {
-
-    .footer__link-list {
-        flex-direction: column;
-        line-height: 60px;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
 
     .footer__link-list {
         flex-direction: column;
