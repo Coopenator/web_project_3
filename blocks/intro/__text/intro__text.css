@@ -4,29 +4,13 @@
     font-size: 16px;
     line-height: 26px;
     color: #FFFFFF;
-    margin: 32px 0;
+    margin: 0 0 32px;
     width: 690px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
 
     .intro__text {
-        width: 720px;
-    }
-}
-
-@media screen and (min-width: 321px) and (max-width: 767px) {
-
-    .intro__text {
-        line-height: 30px;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 320px) {
-
-    .intro__text {
-        line-height: 30px;
         width: 100%;
     }
 }

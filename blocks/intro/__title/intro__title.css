@@ -5,21 +5,11 @@
     line-height: 58px;
     width: 690px;
     color: #FFFFFF;
-    margin: 0;
+    margin: 0 0 40px 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-
+@media screen and (max-width: 768px) {
     .intro__title {
-        width: 720px;
-    }
-}
-
-@media screen and (min-width: 321px) and (max-width: 767px) {
-
-    .intro__title {
-        font-size: 32px;
-        line-height: 35px;
         width: 100%;
     }
 }
@@ -29,6 +19,5 @@
     .intro__title {
         font-size: 32px;
         line-height: 35px;
-        width: 100%;
     }
 }

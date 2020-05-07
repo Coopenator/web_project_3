@@ -1,0 +1,10 @@
+.section__narrow {
+    padding-left: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .section__narrow {
+        padding-left: 0px;
+    }
+}
