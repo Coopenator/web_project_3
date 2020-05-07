@@ -2,30 +2,14 @@
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    line-height: 170%;
-    letter-spacing: 0.2em;
+    line-height: 12px;
+    letter-spacing: 3.2px;
     color: #AAAAAA;
     margin: 0;
-    grid-row: 1 / 2;
-    align-self: flex-end;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-
-    .places__url {
-        font-size: 12px;
-    }
-}
-
-@media screen and (min-width: 321px) and (max-width: 767px) {
-
-    .places__url {
-        display: none;
-    }
+    padding-bottom: 12px;
 }
 
 @media screen and (max-width: 320px) {
-
 
     .places__url {
         display: none;

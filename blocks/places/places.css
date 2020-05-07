@@ -4,7 +4,9 @@
 @import url(./__url/places__url.css);
 @import url(./__link/places__link.css);
 @import url(./__image/places__image.css);
+@import url(./__description/places__description.css);
 @import url(./__text/places__text.css);
+@import url(./__text/__text_small/places__text_small.css);
 
 .places {
     width: 984px;
@@ -31,6 +33,6 @@
 
     .places {
         width: 100%;
-        margin: 0 auto 64px;
+        margin: 0 auto 40px;
     }
 }
